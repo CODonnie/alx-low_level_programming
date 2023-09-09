@@ -1,23 +1,25 @@
 #include <stdio.h>
 
-/*
- * main - the main function
+/**
+ * main - main function
  *
  * Return: always (0)
+ *
  */
 int main(void)
 {
-	int i;
+	char d;
 
-	for (i = 0; i < 10; i++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(i + '0');
-		if (i != 9)
+		putchar(d);
+		if (d <= 8)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar ('\n');
+	putchar('\n');
+
 	return (0);
 }
