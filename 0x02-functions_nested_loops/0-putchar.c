@@ -25,6 +25,7 @@ int main(void)
 	putchar(x);
 	x = 'r';
 	putchar(x);
+	putchar('\n');
 
 	return (0);
 }
