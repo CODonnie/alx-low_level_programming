@@ -2,7 +2,7 @@
 /**
  * print_sign - main function
  * @n: character to be checked
- * Return: 1 if n is greater than zero, 0 if its zero, -1 if its less than zero.
+ * Return: 1,0 or -1 according to condition.
  *
  */
 int print_sign(int n)
